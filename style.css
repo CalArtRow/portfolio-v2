@@ -113,15 +113,23 @@ section {
     font-size: 14px;
 }
 
+
 .technologies {
     margin-top: auto;
 }
 
-.fa {
+.project-card i {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 2em;
+    display: none;
   }
+
+ .project-card:hover i {
+    display: block;
+} 
+
 
 .contact-container {
     width: 80%;
